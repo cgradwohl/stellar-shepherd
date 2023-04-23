@@ -6,7 +6,9 @@ export const post: APIRoute = ({ request, redirect }) => {
   //     message: "This was a POST!",
   //   }),
   // };
+
   // validate form data
+
   // send email verification template
   fetch("https://www.courier.com/", {
     method: "POST", // *GET, POST, PUT, DELETE, etc.
