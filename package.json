@@ -26,6 +26,8 @@
     "astro-sst": "^2.5.8",
     "aws-cdk-lib": "2.72.1",
     "constructs": "10.1.156",
+    "prettier": "2.8.8",
+    "prettier-plugin-astro": "^0.8.0",
     "sst": "^2.7.2"
   }
 }
