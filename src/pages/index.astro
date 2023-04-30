@@ -1,28 +1,26 @@
 ---
-// Component Imports
-import Button from "../components/Button.astro";
-import TextInput from "../components/TextInput.astro";
+import SignupCTA from "../components/SignupCTA.astro";
 
-// Full Astro Component Syntax:
-// https://docs.astro.build/core-concepts/astro-components/
 ---
 
-<html lang="en">
+<html lang="en" class="h-full bg-gray-50">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/ico" href="/favicon.ico" />
     <meta name="generator" content={Astro.generator} />
-    <title>Astro + TailwindCSS</title>
+    <title>Cloud Spark</title>
   </head>
 
-  <body>
+  <body class="h-full">
     <div class="grid place-items-center h-screen content-center">
-      <Button>Lucy and Mom and Dad and Ava</Button>
-      <TextInput />
-      <a href="/markdown-page" class="p-4 underline"
+      
+      <SignupCTA />
+      
+      <!-- THIS IS COOL ... LINK RIGHT TO A PAGE -->
+      <!-- <a href="/markdown-page" class="p-4 underline"
         >Markdown is also supported...</a
-      >
+      > -->
     </div>
   </body>
 </html>

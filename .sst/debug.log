@@ -1,0 +1,20 @@
+2023-04-30T20:44:50.390Z  +1112ms [debug] Config loaded {"version":"2.7.2","cdkVersion":"2.72.1","constructsVersion":"10.1.156","config":{"name":"stellar-shepherd","region":"us-east-1","stage":"dev","ssmPrefix":"/sst/stellar-shepherd/dev/"},"metafile":{"inputs":{"sst.config.ts":{"bytes":403,"imports":[{"path":"sst/constructs","kind":"import-statement","external":true},{"path":"<runtime>","kind":"import-statement","external":true}]}},"outputs":{".sst.config.1682887489428.mjs":{"imports":[{"path":"sst/constructs","kind":"import-statement","external":true}],"exports":["default"],"entryPoint":"sst.config.ts","inputs":{"sst.config.ts":{"bytesInOutput":383}},"bytes":1873}}},"paths":{"config":"/Users/spark/projects/stellar-shepherd/sst.config.ts","root":"/Users/spark/projects/stellar-shepherd","out":"/Users/spark/projects/stellar-shepherd/.sst","artifacts":"/Users/spark/projects/stellar-shepherd/.sst/artifacts"}}
+2023-04-30T20:44:50.447Z    +57ms [debug] Using AWS profile 
+2023-04-30T20:44:50.457Z    +10ms [debug] Created AWS client IoTClient
+2023-04-30T20:44:50.457Z     +0ms [debug] Getting IoT endpoint
+2023-04-30T20:44:50.844Z   +387ms [debug] Using IoT endpoint: a35d2kqf7554cy-ats.iot.us-east-1.amazonaws.com
+2023-04-30T20:44:50.845Z     +1ms [debug] Initializing bootstrap context
+2023-04-30T20:44:50.846Z     +1ms [debug] Created AWS client CloudFormationClient
+2023-04-30T20:44:51.233Z   +387ms [debug] Loaded bootstrap status
+2023-04-30T20:44:51.238Z     +5ms [debug] Created AWS client STSClient
+2023-04-30T20:44:51.579Z   +341ms [debug] Using identity Account: 770422195241 User: AIDA3GYF5YQU57335RNNA
+2023-04-30T20:44:52.038Z   +459ms [debug]  ⏳  Bootstrapping environment aws://770422195241/us-east-1...
+
+2023-04-30T20:44:52.805Z   +767ms [debug] Trusted accounts for deployment: (none)
+
+2023-04-30T20:44:52.806Z     +1ms [debug] Trusted accounts for lookup: (none)
+
+2023-04-30T20:44:52.806Z     +0ms [debug] Using default execution policy of 'arn:aws:iam::aws:policy/AdministratorAccess'. Pass '--cloudformation-execution-policies' to customize.
+
+2023-04-30T20:44:53.206Z   +400ms [debug] CDKToolkit: creating CloudFormation changeset...
+
